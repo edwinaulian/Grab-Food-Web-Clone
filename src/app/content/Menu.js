@@ -87,9 +87,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i} > 
                           <img className='imgs' src={IMGWaiki} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title'>{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -107,9 +107,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGWaiki} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title'>{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -128,9 +128,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGAigo} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -147,9 +147,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGChingu} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -164,9 +164,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGikanKerapu} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -181,9 +181,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i} > 
                           <img className='imgs' src={IMGsamjang} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -199,9 +199,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGOmo} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -216,9 +216,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGsarangheyo} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -233,9 +233,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGChaeso} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -250,9 +250,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i}> 
                           <img className='imgs' src={IMGDrink} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}
@@ -267,9 +267,9 @@ export const Menu = () => {
                       width: 380,
                       height: 140,
                     }}>
-                      <Box sx={{ width: 100}} > 
+                      <Box sx={{ width: 100}} key={i} > 
                           <img className='imgs' src={IMGAdon} alt='no-image'/>
-                          <p className='title' key={i}>{value.name}</p>   
+                          <p className='title' >{value.name}</p>   
                       </Box>
                     </Paper>
                 )})}

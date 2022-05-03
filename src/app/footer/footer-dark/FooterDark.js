@@ -58,8 +58,8 @@ export const FooterDark = () => {
                 </Grid>
                 <Grid container spacing={0} columns={100}>
                    <div className='mainFooter-four'>
-                        <a href='https://apps.apple.com/app/id647268330?af_prt=food.grab.com&c=direct&is_retargeting=true&l=id&pid=other_websites' rel="noreferrer noopener" target='_blank'><img className='imgstore' src={LogoAppStore} alt='no-image'/></a>
-                        <a href='https://grab.onelink.me/2695613898?pid=other_websites&c=direct&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26sourceID%3Dfood-grab-com%26sourceCampaignName%3DGF-WEB-ID-restaurant-detail-6-C2XDGABBT3BYGT-organic&af_prt=food.grab.com&af_web_dp=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.grabtaxi.passenger%26hl%3Did_ID' rel="noreferrer noopener" target='_blank'><img className='imgstore' src={LogoPlayStore} alt='no-image'/></a>
+                        <a href='https://apps.apple.com/app/id647268330?af_prt=food.grab.com&c=direct&is_retargeting=true&l=id&pid=other_websites' rel="noreferrer noopener" target='_blank'><img className='imgstore' src={LogoAppStore} alt='apps-store'/></a>
+                        <a href='https://grab.onelink.me/2695613898?pid=other_websites&c=direct&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26sourceID%3Dfood-grab-com%26sourceCampaignName%3DGF-WEB-ID-restaurant-detail-6-C2XDGABBT3BYGT-organic&af_prt=food.grab.com&af_web_dp=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.grabtaxi.passenger%26hl%3Did_ID' rel="noreferrer noopener" target='_blank'><img className='imgstore' src={LogoPlayStore} alt='play-store'/></a>
                    </div>
                 </Grid>
             </Grid>
