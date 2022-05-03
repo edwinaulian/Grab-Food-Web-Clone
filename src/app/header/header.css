@@ -1,0 +1,57 @@
+.grab-logo-header {
+    width: auto;
+    height: 50px;
+    margin-left: 0em;
+}
+
+.section-content {
+    /* background-color: aliceblue; */
+    background-color: white;
+    padding: 16px 32px;
+    position: sticky;
+    top: 0;
+}
+
+.select-location {
+    margin-left: 12em;
+    margin-top: -3em;
+}
+
+.foodCartIcon {
+    background-image: url(../common/asset/icon-cart-default-black.svg);
+    background-repeat: no-repeat;
+    background-position: 0.6em;
+    background-size: 16px 16px;
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    margin: -45px 160px 10px 0px;
+    border: 1px solid #aaa6a6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.foodCartIcon:hover {
+    background-color: rgba(25, 118, 210, 0.04);
+}
+
+.btn-style {
+    border: 1px solid #aaa6a6;
+}
+
+.masuk-daftar {
+    padding: 0 12px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    margin: -45px 100px 10px 0px;
+}
+
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%; 
+}

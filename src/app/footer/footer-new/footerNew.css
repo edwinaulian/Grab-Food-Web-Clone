@@ -1,0 +1,51 @@
+.grab-logo-footer {
+    width: auto;
+    margin-left: 2em;
+}
+
+.footerNew {
+    background: #eaeff2;
+    color: #363a45;
+    padding-top: 44px;
+    padding-bottom: 12px;
+    height: 30em;
+}
+
+.footer-header {
+    width: auto;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.line {
+    margin-left: 2em;
+    width: 94%;
+    height: 1px;
+    background: #dadfe8;
+    margin-top: 24px;
+}
+
+.footerLinksNew {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    color: #fff;
+    list-style: none;
+    width: auto;
+    margin-left: 2.5em;
+    margin-top: 1em;
+}
+
+.footerLinksNew:hover {
+    text-decoration: underline;
+}
+
+.listColorNew {
+    color: #363a45;
+}

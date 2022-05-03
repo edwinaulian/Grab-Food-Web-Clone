@@ -1,0 +1,64 @@
+.footerDark {
+    background: #363a45;
+    color: #fff;
+    padding-top: 32px;
+    padding-bottom: 48px;
+    max-height: 8em;
+}
+
+.tittle-footer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #afb0b4;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.float-left {
+    color: #fff;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+
+.listColor {
+    color: #fff;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.countriesList a::after{
+    content: "|";
+    color: #6b7896;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.mainfooter {
+    width: auto;
+    margin-left: 1em;
+    margin-top: -2em;
+}
+.mainfooter-two {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.mainFooter-three {
+    width: auto;
+    text-align: right;
+    margin-left: 70em;
+    margin-top: -100px;
+}
+.mainFooter-four {
+    width: auto;
+    margin-left: 900px;
+}
+
+.imgstore {
+    height: 38px;
+    margin-left: 20px;
+}

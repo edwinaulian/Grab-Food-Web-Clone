@@ -1,0 +1,38 @@
+#section-menu{
+    width: 100%;    
+}
+.fix-search  {
+    position: fixed;
+    top: 10px;
+}
+
+.main-content {
+    background-color: #F7F7F7;
+    margin-left: -30px;
+    margin-bottom: -12px;
+}
+
+.messages-content{
+    text-align: center;
+    font-size: 11px;
+}
+
+.imgs {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.title {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1.14285714rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #1c1c1c;
+    word-break: break-word;
+    margin: -132px -188px 0px 153px;
+}
